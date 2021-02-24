@@ -144,7 +144,7 @@ describe('ExampleSlidingWindowOracle', () => {
         await pair.price0CumulativeLast(),
         await pair.price1CumulativeLast()
       ])
-    }).retries(2) // we may have slight differences between pair blockTimestamp and the expected timestamp
+    }).retries(25) // we may have slight differences between pair blockTimestamp and the expected timestamp
     // because the previous block timestamp may differ from the current block timestamp by 1 second
 
     it('gas for first update (allocates empty array)', async () => {
