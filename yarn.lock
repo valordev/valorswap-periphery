@@ -318,15 +318,15 @@
   dependencies:
     "@types/node" "*"
 
-"@viperswap/core@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@viperswap/core/-/core-1.0.1.tgz#a762821e1bcd0d0911d571951dafbd355d0e914d"
-  integrity sha512-n3DtgDhWNJFkKsFmdUneEfjVKK32I6af97ciJ1BgJqZS4b4pdaJvr1XYyLpvxEbNtc6By5lRsG7PFPuHh0if9g==
+"@viperswap/core@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@viperswap/core/-/core-1.0.2.tgz#5c64ef2f64309e4e64673a089568b5f0536ebb81"
+  integrity sha512-AVQcusMorIAz5W0H8gfEuUE0INa630Sa/Y6ydE+alsb2iE04JPBXE77Ps2qmhQLaCPjrBzTDtzJSzUHiKdAbTw==
 
-"@viperswap/lib@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@viperswap/lib/-/lib-1.0.0.tgz#3398d1ad8487f81b5e66c0f0478d6fd05de87657"
-  integrity sha512-YpqGr8MPE5/UrEKBZx4A6U+UWqtWQ/ESRBrM2GVioXnJ4vicciWlsHNJAyOEZnk/x6y6+pxgc1FQ1+jUAQS7Kw==
+"@viperswap/lib@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@viperswap/lib/-/lib-1.0.1.tgz#11df9aaf999eff114e2913f08bd3120c222078d5"
+  integrity sha512-mdhF4+WTfoCyzMpW0aEhkkiRwFszAifaLAi/8/VoB5mjPCCXX+75OR0e5n2Kyil4OGrqUkMN5rzTUX387Z3dvQ==
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
@@ -5122,21 +5122,7 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-solc@0.6.6:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/solc/-/solc-0.6.6.tgz#0d4b9c2e7105dd6015583f5e1c5ba6a35861ea71"
-  integrity sha512-p0IO/1fRaHWKN+qR+mUivpwnBpFYD8EoFAzT8VL4lmllNwsyEO7TJJAc2QK0XUeWOYOT92NWKhDNNNLTVbHShA==
-  dependencies:
-    command-exists "^1.2.8"
-    commander "3.0.2"
-    fs-extra "^0.30.0"
-    js-sha3 "0.8.0"
-    memorystream "^0.3.1"
-    require-from-string "^2.0.0"
-    semver "^5.5.0"
-    tmp "0.0.33"
-
-solc@^0.6.3:
+solc@0.6.12, solc@^0.6.3:
   version "0.6.12"
   resolved "https://registry.yarnpkg.com/solc/-/solc-0.6.12.tgz#48ac854e0c729361b22a7483645077f58cba080e"
   integrity sha512-Lm0Ql2G9Qc7yPP2Ba+WNmzw2jwsrd3u4PobHYlSOxaut3TtUbj9+5ZrT6f4DUpNPEoBaFUOEg9Op9C0mk7ge9g==

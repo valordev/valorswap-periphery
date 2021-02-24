@@ -1,4 +1,5 @@
-pragma solidity >=0.5.0;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity =0.6.12;
 
 import '@viperswap/core/contracts/interfaces/IUniswapV2Pair.sol';
 import '@viperswap/core/contracts/interfaces/IUniswapV2Factory.sol';
