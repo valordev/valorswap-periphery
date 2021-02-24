@@ -517,11 +517,11 @@ describe('UniswapV2Router{01,02}', () => {
           const receipt = await tx.wait()
           expect(receipt.gasUsed).to.eq(
             {
-              [RouterVersion.UniswapV2Router01]: 108656,
+              [RouterVersion.UniswapV2Router01]: 138656,
               [RouterVersion.UniswapV2Router02]: 138656
             }[routerVersion as RouterVersion]
           )
-        }).retries(3)
+        }).retries(10)
       })
 
       describe('swapTokensForExactETH', () => {
