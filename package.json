@@ -1,6 +1,6 @@
 {
   "name": "@viperswap/periphery",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "🎚 Peripheral smart contracts for interacting with Viperswap",
   "engines": {
     "node": ">=10"
@@ -15,8 +15,8 @@
     "contracts"
   ],
   "dependencies": {
-    "@viperswap/lib": "1.0.0",
-    "@viperswap/core": "1.0.1"
+    "@viperswap/lib": "1.0.1",
+    "@viperswap/core": "1.0.3"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
@@ -28,7 +28,7 @@
     "ncp": "^2.0.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "solc": "0.6.6",
+    "solc": "0.6.12",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   },
