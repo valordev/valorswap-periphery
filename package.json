@@ -1,22 +1,22 @@
 {
-  "name": "@viperswap/periphery",
-  "version": "1.0.2",
-  "description": "🎚 Peripheral smart contracts for interacting with Viperswap",
+  "name": "@venomswap/periphery",
+  "version": "1.0.0",
+  "description": "🎚 Peripheral smart contracts for interacting with the Venomswap exchanges",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://viper.exchange",
+  "homepage": "https://venomdao.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ViperProtocol/viperswap-periphery"
+    "url": "https://github.com/VenomProtocol/venomswap-periphery"
   },
   "files": [
     "build",
     "contracts"
   ],
   "dependencies": {
-    "@viperswap/lib": "1.0.1",
-    "@viperswap/core": "1.0.3"
+    "@venomswap/lib": "1.0.0",
+    "@venomswap/core": "1.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
