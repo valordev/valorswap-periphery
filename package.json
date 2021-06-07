@@ -1,7 +1,7 @@
 {
   "name": "@valorswap/periphery",
-  "version": "1.1.0",
-  "description": "🎚 Peripheral smart contracts for interacting with the Venomswap exchanges",
+  "version": "1.1.1",
+  "description": "🎚 Peripheral smart contracts for interacting with the ViperSwap exchanges",
   "engines": {
     "node": "=12"
   },
@@ -14,8 +14,8 @@
     "contracts"
   ],
   "dependencies": {
-    "@lootswap/lib": "1.0.5",
-    "@lootswap/core": "1.0.5",
+    "@valorswap/lib": "1.0.5",
+    "@valorswap/core": "1.0.5",
     "@harmony-js/core": "^0.1.57",
     "@harmony-js/utils": "^0.1.56",
     "truffle": "^5.1.41",
