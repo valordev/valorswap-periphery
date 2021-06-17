@@ -1,11 +1,9 @@
 # Uniswap V2
 
 [![Actions Status](https://github.com/VenomProtocol/venomswap-periphery/workflows/CI/badge.svg)](https://github.com/VenomProtocol/venomswap-periphery/actions)
-[![npm](https://img.shields.io/npm/v/@venomswap/periphery?style=flat-square)](https://npmjs.com/package/@venomswap/periphery)
+[![npm](https://img.shields.io/npm/v/@venomswap/periphery?style=flat-square)](https://npmjs.com/package/@valorswap-periphery)
 
 In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
-
-The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@venomswap/periphery@latest/).
 
 # Local Development
 
